@@ -1,2 +1,2 @@
-# mobileFirst
-Mobile First Applications Assignment (NextJs and NestJs)
+# How to run project
+
