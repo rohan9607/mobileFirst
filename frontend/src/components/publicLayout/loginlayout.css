@@ -1,0 +1,30 @@
+#show-bg{
+    /* height: 100vh; */
+    /* position: relative; */
+    /* padding: 20px 480px 20px 20px; */
+    background: rgb(8, 94, 253);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background: url(../../../public//img//landing-users.png);
+    -webkit-animation: sidedownscroll 30s linear infinite;
+    animation: sidedownscroll 30s linear infinite;
+}
+
+#show-bg:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(222, 23, 91);
+    background: linear-gradient(
+      61deg,
+      rgba(222, 53, 23, 0.9) 0%,
+      rgba(9, 15, 26, 0.9) 100%
+    );
+    opacity: 1;
+    z-index: auto;
+  }
